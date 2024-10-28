@@ -13,7 +13,7 @@ import sys
 sys.path.append('/opt/homebrew/anaconda3/envs/venv38/lib/python3.8/site-packages')
 
 # Create a app title with title method
-st.title('Foreskin Prediction')
+st.title('Foreskin Bleeding Prediction')
 # We called back our models created before
 # model1 =pickle.load(open("ada_xgb.pkl","rb"))
 # model1 = joblib.load("ada_xgb.pkl")
