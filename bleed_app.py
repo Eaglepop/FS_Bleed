@@ -25,7 +25,7 @@ with open('ada_rf_b.pkl', 'rb') as f:
     model2 = pickle.load(f)
 
 # We use selectbox method and append our models to give a choice clients
-models = st.selectbox("Select Model",("Random Forest","XGBoost","LightGBM") )
+models = st.selectbox("Select Model",("Random Forest","XGBoost") )
 # And specified a condition if users select Random forest use random forest model else use Xgboost model.
 if models == "Random Forest":
     model = model2
