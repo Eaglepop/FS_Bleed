@@ -11,6 +11,7 @@ import joblib
 # import streamlit.web.cli 
 # from streamlit.web.cli import main
 import sys
+print(sys.path)
 
 # sys.path.append('/opt/homebrew/anaconda3/envs/venv38/lib/python3.8/site-packages')
 
