@@ -74,41 +74,41 @@ st.title('Post-DCSD Bleeding Rate Caculator')
 
 
 
-with open('ros_xgb_i.pkl', 'rb') as f:
-    model1 = pickle.load(f)
+# with open('ros_xgb_i.pkl', 'rb') as f:
+#     model1 = pickle.load(f)
 
-with open('ros_rf_i.pkl', 'rb') as f:
-    model2 = pickle.load(f)
+# with open('ros_rf_i.pkl', 'rb') as f:
+#     model2 = pickle.load(f)
 
-with open('ros_lgbm_i.pkl', 'rb') as f:
-    model3 = pickle.load(f)
+# with open('ros_lgbm_i.pkl', 'rb') as f:
+#     model3 = pickle.load(f)
 
-with open('smt_xgb_i.pkl', 'rb') as f:
-    model4 = pickle.load(f)
+# with open('smt_xgb_i.pkl', 'rb') as f:
+#     model4 = pickle.load(f)
 
-with open('smt_rf_i.pkl', 'rb') as f:
-    model5 = pickle.load(f)
+# with open('smt_rf_i.pkl', 'rb') as f:
+#     model5 = pickle.load(f)
 
-with open('smt_lgbm_i.pkl', 'rb') as f:
-    model6 = pickle.load(f)
+# with open('smt_lgbm_i.pkl', 'rb') as f:
+#     model6 = pickle.load(f)
     
-with open('smtnc_xgb_i.pkl', 'rb') as f:
-    model7 = pickle.load(f)
+# with open('smtnc_xgb_i.pkl', 'rb') as f:
+#     model7 = pickle.load(f)
 
-with open('smtnc_rf_i.pkl', 'rb') as f:
-    model8 = pickle.load(f)
+# with open('smtnc_rf_i.pkl', 'rb') as f:
+#     model8 = pickle.load(f)
 
-with open('smtnc_lgbm_i.pkl', 'rb') as f:
-    model9 = pickle.load(f)
+# with open('smtnc_lgbm_i.pkl', 'rb') as f:
+#     model9 = pickle.load(f)
 
-with open('smttom_xgb_i.pkl', 'rb') as f:
-    model10 = pickle.load(f)
+# with open('smttom_xgb_i.pkl', 'rb') as f:
+#     model10 = pickle.load(f)
 
-with open('smttom_rf_i.pkl', 'rb') as f:
-    model11 = pickle.load(f)
+# with open('smttom_rf_i.pkl', 'rb') as f:
+#     model11 = pickle.load(f)
 
-with open('smttom_lgbm_i.pkl', 'rb') as f:
-    model12 = pickle.load(f)
+# with open('smttom_lgbm_i.pkl', 'rb') as f:
+#     model12 = pickle.load(f)
 
 with open('ada_xgb_b.pkl', 'rb') as f:
     model13 = pickle.load(f)
@@ -116,8 +116,8 @@ with open('ada_xgb_b.pkl', 'rb') as f:
 with open('ada_rf_b.pkl', 'rb') as f:
     model14 = pickle.load(f)
 
-with open('ada_lgbm_i.pkl', 'rb') as f:
-    model15 = pickle.load(f)
+# with open('ada_lgbm_i.pkl', 'rb') as f:
+#     model15 = pickle.load(f)
     
     
     
